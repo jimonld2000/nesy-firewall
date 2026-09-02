@@ -1,0 +1,1302 @@
+[
+  {
+    "rule_id": "unsafe_database_010",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB aggregated 4",
+    "expected_safe": false,
+    "match": {
+      "source": "94.0.0.0/16",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_007",
+    "category": "safe_narrow",
+    "description": "Internal service communication 1",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.15/32",
+      "destination": "10.0.2.107/32",
+      "destination_port": 6379,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_010",
+    "category": "slm_hallucination",
+    "description": "Hallucination: over-aggregated dest 0",
+    "expected_safe": false,
+    "match": {
+      "source": "100.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_010",
+    "category": "unsafe_over_aggregation",
+    "description": "Over-permissive 4",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 5432,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_014",
+    "category": "safe_narrow",
+    "description": "Internal service communication 8",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.38/32",
+      "destination": "10.0.2.130/32",
+      "destination_port": 5432,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_008",
+    "category": "safe_narrow",
+    "description": "Internal service communication 2",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.21/32",
+      "destination": "10.0.2.103/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_006",
+    "category": "safe_aggregated",
+    "description": "Safe aggregated rule 0",
+    "expected_safe": true,
+    "match": {
+      "source": "12.0.0.0/16",
+      "destination": "10.0.5.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_008",
+    "category": "slm_hallucination",
+    "description": "Hallucination: web tier to DB (correct subnet but external)",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.1.0/24",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_010",
+    "category": "safe_narrow",
+    "description": "Internal service communication 4",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.203/32",
+      "destination": "10.0.2.88/32",
+      "destination_port": 6379,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "edge_cases_001",
+    "category": "edge_cases",
+    "description": "Match all, any port",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "0.0.0.0/0",
+      "destination_port": null,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_005",
+    "category": "unsafe_management",
+    "description": "Ext\u2192mgmt 0",
+    "expected_safe": false,
+    "match": {
+      "source": "63.23.0.0/24",
+      "destination": "10.0.4.0/24",
+      "destination_port": 3389,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_007",
+    "category": "safe_aggregated",
+    "description": "Safe aggregated rule 1",
+    "expected_safe": true,
+    "match": {
+      "source": "15.0.0.0/16",
+      "destination": "10.0.5.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_004",
+    "category": "unsafe_over_aggregation",
+    "description": "Full permit ANY:443",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "0.0.0.0/0",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_004",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 139",
+    "expected_safe": false,
+    "match": {
+      "source": "173.162.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 139,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_007",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 3389",
+    "expected_safe": false,
+    "match": {
+      "source": "51.27.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 3389,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_003",
+    "category": "unsafe_threat_intel",
+    "description": "Threat\u2192internal 2",
+    "expected_safe": false,
+    "match": {
+      "source": "198.51.100.0/24",
+      "destination": "10.0.34.206/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_003",
+    "category": "safe_aggregated",
+    "description": "Partner subnet to API",
+    "expected_safe": true,
+    "match": {
+      "source": "192.0.2.0/24",
+      "destination": "10.0.2.0/24",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_001",
+    "category": "safe_aggregated",
+    "description": "Web subnet to web servers",
+    "expected_safe": true,
+    "match": {
+      "source": "203.0.113.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_011",
+    "category": "slm_hallucination",
+    "description": "Hallucination: over-aggregated dest 1",
+    "expected_safe": false,
+    "match": {
+      "source": "134.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_010",
+    "category": "safe_aggregated",
+    "description": "Safe aggregated rule 4",
+    "expected_safe": true,
+    "match": {
+      "source": "18.0.0.0/16",
+      "destination": "10.0.5.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_014",
+    "category": "slm_hallucination",
+    "description": "Hallucination: over-aggregated dest 4",
+    "expected_safe": false,
+    "match": {
+      "source": "62.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_005",
+    "category": "safe_aggregated",
+    "description": "Regional office to DMZ",
+    "expected_safe": true,
+    "match": {
+      "source": "203.0.114.0/24",
+      "destination": "10.0.5.0/24",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_005",
+    "category": "safe_narrow",
+    "description": "Secure API",
+    "expected_safe": true,
+    "match": {
+      "source": "203.0.113.200/32",
+      "destination": "10.0.2.200/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_008",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 5900",
+    "expected_safe": false,
+    "match": {
+      "source": "145.200.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 5900,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_007",
+    "category": "unsafe_management",
+    "description": "Ext\u2192mgmt 2",
+    "expected_safe": false,
+    "match": {
+      "source": "51.156.0.0/24",
+      "destination": "10.0.4.0/24",
+      "destination_port": 5900,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_003",
+    "category": "unsafe_management",
+    "description": "Ext\u2192SSH 2",
+    "expected_safe": false,
+    "match": {
+      "source": "50.0.0.0/24",
+      "destination": "10.0.4.0/24",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_005",
+    "category": "unsafe_over_aggregation",
+    "description": "Internal ANY\u2192ANY MySQL",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.0.0/8",
+      "destination": "10.0.0.0/8",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_011",
+    "category": "safe_narrow",
+    "description": "Internal service communication 5",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.100/32",
+      "destination": "10.0.2.104/32",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_database_006",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB aggregated 0",
+    "expected_safe": false,
+    "match": {
+      "source": "142.0.0.0/24",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_015",
+    "category": "slm_hallucination",
+    "description": "Hallucination: over-aggregated dest 5",
+    "expected_safe": false,
+    "match": {
+      "source": "106.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_003",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 135",
+    "expected_safe": false,
+    "match": {
+      "source": "91.135.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 135,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_database_009",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB aggregated 3",
+    "expected_safe": false,
+    "match": {
+      "source": "63.0.0.0/16",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "edge_cases_005",
+    "category": "edge_cases",
+    "description": "Edge CIDR 0",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/4",
+      "destination": "10.0.0.0/8",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_005",
+    "category": "unsafe_threat_intel",
+    "description": "Internal\u2192threat 0",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.253.134/32",
+      "destination": "198.51.100.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_database_001",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB direct 0",
+    "expected_safe": false,
+    "match": {
+      "source": "198.207.14.190/32",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_002",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 23",
+    "expected_safe": false,
+    "match": {
+      "source": "73.138.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 23,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_004",
+    "category": "safe_aggregated",
+    "description": "CDN subnet HTTPS",
+    "expected_safe": true,
+    "match": {
+      "source": "198.51.101.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "deny_rules_005",
+    "category": "deny_rules",
+    "description": "Deny rule 0",
+    "expected_safe": true,
+    "match": {
+      "source": "82.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "unsafe_database_008",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB aggregated 2",
+    "expected_safe": false,
+    "match": {
+      "source": "19.0.0.0/16",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "edge_cases_006",
+    "category": "edge_cases",
+    "description": "Edge CIDR 1",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/16",
+      "destination": "10.0.0.0/16",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_004",
+    "category": "unsafe_management",
+    "description": "Ext\u2192SSH 3",
+    "expected_safe": false,
+    "match": {
+      "source": "92.0.0.0/8",
+      "destination": "10.0.4.0/24",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_013",
+    "category": "slm_hallucination",
+    "description": "Hallucination: over-aggregated dest 3",
+    "expected_safe": false,
+    "match": {
+      "source": "106.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "edge_cases_003",
+    "category": "edge_cases",
+    "description": "RFC1918 non-10 source",
+    "expected_safe": false,
+    "match": {
+      "source": "172.16.0.0/12",
+      "destination": "10.0.1.0/24",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "edge_cases_008",
+    "category": "edge_cases",
+    "description": "Edge CIDR 3",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/4",
+      "destination": "10.0.0.0/8",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_009",
+    "category": "unsafe_over_aggregation",
+    "description": "Over-permissive 3",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_002",
+    "category": "safe_aggregated",
+    "description": "HTTPS to web servers",
+    "expected_safe": true,
+    "match": {
+      "source": "203.0.113.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_002",
+    "category": "slm_hallucination",
+    "description": "Hallucination: all external HTTPS to all internal",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_006",
+    "category": "slm_hallucination",
+    "description": "Hallucination: HTTPS too broad dest",
+    "expected_safe": false,
+    "match": {
+      "source": "203.0.113.0/24",
+      "destination": "10.0.0.0/8",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_002",
+    "category": "safe_narrow",
+    "description": "HTTPS server access",
+    "expected_safe": true,
+    "match": {
+      "source": "203.0.113.11/32",
+      "destination": "10.0.1.51/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_004",
+    "category": "unsafe_threat_intel",
+    "description": "Threat\u2192internal 3",
+    "expected_safe": false,
+    "match": {
+      "source": "198.51.100.0/24",
+      "destination": "10.0.163.50/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_012",
+    "category": "safe_narrow",
+    "description": "Internal service communication 6",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.150/32",
+      "destination": "10.0.2.53/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_002",
+    "category": "unsafe_over_aggregation",
+    "description": "Allow ALL to internal HTTPS",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_006",
+    "category": "unsafe_management",
+    "description": "Ext\u2192mgmt 1",
+    "expected_safe": false,
+    "match": {
+      "source": "198.123.0.0/24",
+      "destination": "10.0.4.0/24",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_001",
+    "category": "unsafe_over_aggregation",
+    "description": "Allow ALL to internal",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_006",
+    "category": "unsafe_threat_intel",
+    "description": "Internal\u2192threat 1",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.105.4/32",
+      "destination": "198.51.100.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_006",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 1433",
+    "expected_safe": false,
+    "match": {
+      "source": "15.233.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 1433,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_007",
+    "category": "unsafe_over_aggregation",
+    "description": "Over-permissive 1",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_007",
+    "category": "slm_hallucination",
+    "description": "Hallucination: VPN to all internal SSH",
+    "expected_safe": false,
+    "match": {
+      "source": "172.16.0.0/12",
+      "destination": "10.0.0.0/8",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_003",
+    "category": "unsafe_over_aggregation",
+    "description": "Internal allow ALL outbound",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.0.0/8",
+      "destination": "0.0.0.0/0",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_005",
+    "category": "slm_hallucination",
+    "description": "Hallucination: too broad dest for web",
+    "expected_safe": false,
+    "match": {
+      "source": "203.0.113.0/24",
+      "destination": "10.0.0.0/8",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_012",
+    "category": "slm_hallucination",
+    "description": "Hallucination: over-aggregated dest 2",
+    "expected_safe": false,
+    "match": {
+      "source": "189.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_009",
+    "category": "safe_aggregated",
+    "description": "Safe aggregated rule 3",
+    "expected_safe": true,
+    "match": {
+      "source": "13.0.0.0/16",
+      "destination": "10.0.5.0/24",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "edge_cases_002",
+    "category": "edge_cases",
+    "description": "Internal any to port 0",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.0.0/8",
+      "destination": "10.0.0.0/8",
+      "destination_port": 0,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_004",
+    "category": "slm_hallucination",
+    "description": "Hallucination: any port to web servers",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.1.0/24",
+      "destination_port": null,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_008",
+    "category": "unsafe_management",
+    "description": "Ext\u2192mgmt 3",
+    "expected_safe": false,
+    "match": {
+      "source": "55.64.0.0/24",
+      "destination": "10.0.4.0/24",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_002",
+    "category": "unsafe_threat_intel",
+    "description": "Threat\u2192internal 1",
+    "expected_safe": false,
+    "match": {
+      "source": "198.51.100.0/24",
+      "destination": "10.0.171.253/32",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "deny_rules_003",
+    "category": "deny_rules",
+    "description": "Drop external SSH",
+    "expected_safe": true,
+    "match": {
+      "source": "203.0.113.0/24",
+      "destination": "10.0.4.0/24",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "safe_narrow_009",
+    "category": "safe_narrow",
+    "description": "Internal service communication 3",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.211/32",
+      "destination": "10.0.2.215/32",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "deny_rules_004",
+    "category": "deny_rules",
+    "description": "Deny all",
+    "expected_safe": true,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "0.0.0.0/0",
+      "destination_port": 0,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "deny_rules_001",
+    "category": "deny_rules",
+    "description": "Deny all to DB",
+    "expected_safe": true,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "safe_narrow_003",
+    "category": "safe_narrow",
+    "description": "API gateway",
+    "expected_safe": true,
+    "match": {
+      "source": "198.51.100.50/32",
+      "destination": "10.0.2.100/32",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "deny_rules_007",
+    "category": "deny_rules",
+    "description": "Deny rule 2",
+    "expected_safe": true,
+    "match": {
+      "source": "72.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "unsafe_database_002",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB direct 1",
+    "expected_safe": false,
+    "match": {
+      "source": "185.189.50.108/32",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_001",
+    "category": "safe_narrow",
+    "description": "Web server access",
+    "expected_safe": true,
+    "match": {
+      "source": "203.0.113.10/32",
+      "destination": "10.0.1.50/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "deny_rules_008",
+    "category": "deny_rules",
+    "description": "Deny rule 3",
+    "expected_safe": true,
+    "match": {
+      "source": "182.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "deny_rules_006",
+    "category": "deny_rules",
+    "description": "Deny rule 1",
+    "expected_safe": true,
+    "match": {
+      "source": "58.0.0.0/16",
+      "destination": "10.0.0.0/8",
+      "destination_port": 3389,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "edge_cases_007",
+    "category": "edge_cases",
+    "description": "Edge CIDR 2",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/16",
+      "destination": "10.0.0.0/12",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_database_005",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB direct 4",
+    "expected_safe": false,
+    "match": {
+      "source": "31.72.166.18/32",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_001",
+    "category": "unsafe_management",
+    "description": "Ext\u2192SSH 0",
+    "expected_safe": false,
+    "match": {
+      "source": "24.0.0.0/8",
+      "destination": "10.0.4.0/24",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "edge_cases_004",
+    "category": "edge_cases",
+    "description": "Half internet source",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/1",
+      "destination": "10.0.0.0/8",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_003",
+    "category": "slm_hallucination",
+    "description": "Hallucination: open MySQL for all internal",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.0.0/8",
+      "destination": "10.0.0.0/8",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_006",
+    "category": "safe_narrow",
+    "description": "Internal service communication 0",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.103/32",
+      "destination": "10.0.2.180/32",
+      "destination_port": 6379,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_006",
+    "category": "unsafe_over_aggregation",
+    "description": "Over-permissive 0",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 3389,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_001",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 21",
+    "expected_safe": false,
+    "match": {
+      "source": "146.215.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 21,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_management_002",
+    "category": "unsafe_management",
+    "description": "Ext\u2192SSH 1",
+    "expected_safe": false,
+    "match": {
+      "source": "58.0.0.0/8",
+      "destination": "10.0.4.0/24",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_007",
+    "category": "unsafe_threat_intel",
+    "description": "Internal\u2192threat 2",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.220.191/32",
+      "destination": "198.51.100.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_wrong_port_005",
+    "category": "unsafe_wrong_port",
+    "description": "Ext\u2192internal port 445",
+    "expected_safe": false,
+    "match": {
+      "source": "43.122.0.0/24",
+      "destination": "10.0.1.0/24",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_database_003",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB direct 2",
+    "expected_safe": false,
+    "match": {
+      "source": "65.243.63.249/32",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_001",
+    "category": "slm_hallucination",
+    "description": "Hallucination: all internal can reach anywhere on 80",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.0.0/8",
+      "destination": "0.0.0.0/0",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_over_aggregation_008",
+    "category": "unsafe_over_aggregation",
+    "description": "Over-permissive 2",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.0/8",
+      "destination_port": 5432,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "deny_rules_002",
+    "category": "deny_rules",
+    "description": "Deny threat CIDR",
+    "expected_safe": true,
+    "match": {
+      "source": "198.51.100.0/24",
+      "destination": "10.0.0.0/8",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "unsafe_database_007",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB aggregated 1",
+    "expected_safe": false,
+    "match": {
+      "source": "70.0.0.0/16",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_013",
+    "category": "safe_narrow",
+    "description": "Internal service communication 7",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.88/32",
+      "destination": "10.0.2.236/32",
+      "destination_port": 27017,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_001",
+    "category": "unsafe_threat_intel",
+    "description": "Threat\u2192internal 0",
+    "expected_safe": false,
+    "match": {
+      "source": "198.51.100.0/24",
+      "destination": "10.0.110.188/32",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_database_004",
+    "category": "unsafe_database",
+    "description": "Ext\u2192DB direct 3",
+    "expected_safe": false,
+    "match": {
+      "source": "141.228.50.135/32",
+      "destination": "10.0.3.0/24",
+      "destination_port": 3306,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "unsafe_threat_intel_008",
+    "category": "unsafe_threat_intel",
+    "description": "Internal\u2192threat 3",
+    "expected_safe": false,
+    "match": {
+      "source": "10.0.217.44/32",
+      "destination": "198.51.100.0/24",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_015",
+    "category": "safe_narrow",
+    "description": "Internal service communication 9",
+    "expected_safe": true,
+    "match": {
+      "source": "10.0.1.21/32",
+      "destination": "10.0.2.161/32",
+      "destination_port": 5432,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_aggregated_008",
+    "category": "safe_aggregated",
+    "description": "Safe aggregated rule 2",
+    "expected_safe": true,
+    "match": {
+      "source": "11.0.0.0/16",
+      "destination": "10.0.5.0/24",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "slm_hallucination_009",
+    "category": "slm_hallucination",
+    "description": "Hallucination: any\u2192any API gateway",
+    "expected_safe": false,
+    "match": {
+      "source": "0.0.0.0/0",
+      "destination": "0.0.0.0/0",
+      "destination_port": 8080,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "safe_narrow_004",
+    "category": "safe_narrow",
+    "description": "External web",
+    "expected_safe": true,
+    "match": {
+      "source": "192.0.2.100/32",
+      "destination": "10.0.1.60/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  }
+]

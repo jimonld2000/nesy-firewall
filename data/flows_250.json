@@ -1,0 +1,2752 @@
+[
+  {
+    "rule_id": "fw_ingest_3048",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "139.23.97.48/32",
+      "destination": "10.114.83.112/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_55042",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "103.189.220.109/32",
+      "destination": "10.27.141.148/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_22479",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "31.25.108.108/32",
+      "destination": "10.205.192.3/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_23809",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "193.4.153.19/32",
+      "destination": "10.243.155.210/32",
+      "destination_port": 20524,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_39085",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "65.222.147.1/32",
+      "destination": "10.64.91.208/32",
+      "destination_port": 33890,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_61803",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "186.232.211.10/32",
+      "destination": "10.140.219.51/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_33617",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "77.86.11.16/32",
+      "destination": "10.230.88.213/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_45197",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "80.181.164.208/32",
+      "destination": "10.226.41.40/32",
+      "destination_port": 37807,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_49006",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "85.66.250.135/32",
+      "destination": "10.73.119.223/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_3571",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "221.29.111.71/32",
+      "destination": "10.46.125.117/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_8626",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "102.13.56.34/32",
+      "destination": "10.188.38.232/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_30314",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "134.8.0.222/32",
+      "destination": "10.105.107.197/32",
+      "destination_port": 27054,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_28503",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "31.73.17.204/32",
+      "destination": "10.230.184.24/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_3766",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "35.116.108.227/32",
+      "destination": "10.32.172.156/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_57214",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "106.152.20.102/32",
+      "destination": "10.53.52.95/32",
+      "destination_port": 20326,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_44815",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "65.236.6.146/32",
+      "destination": "10.180.128.41/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_31399",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "208.248.27.106/32",
+      "destination": "10.94.91.61/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_30810",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "194.130.171.196/32",
+      "destination": "10.102.74.232/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_31050",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "155.255.210.150/32",
+      "destination": "10.212.0.116/32",
+      "destination_port": 44847,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_50424",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "52.219.105.180/32",
+      "destination": "10.130.166.52/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_46026",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "221.188.242.114/32",
+      "destination": "10.42.125.116/32",
+      "destination_port": 62451,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_492",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "77.48.79.26/32",
+      "destination": "10.127.54.54/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_20257",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "149.248.84.86/32",
+      "destination": "10.62.69.223/32",
+      "destination_port": 25174,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_63936",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "22.223.141.217/32",
+      "destination": "10.184.244.204/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_15952",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "198.107.240.248/32",
+      "destination": "10.198.225.144/32",
+      "destination_port": 22114,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_7324",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "16.39.135.172/32",
+      "destination": "10.142.26.55/32",
+      "destination_port": 5900,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_37451",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "156.142.16.74/32",
+      "destination": "10.98.107.225/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_20747",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "177.62.186.194/32",
+      "destination": "10.118.129.191/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_14670",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "98.1.106.135/32",
+      "destination": "10.177.89.119/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_16548",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "61.212.20.182/32",
+      "destination": "10.109.105.152/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_47061",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "100.237.255.141/32",
+      "destination": "10.32.221.234/32",
+      "destination_port": 21,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_26106",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "25.56.200.107/32",
+      "destination": "10.147.24.20/32",
+      "destination_port": 48019,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_55867",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "119.149.1.20/32",
+      "destination": "10.210.155.233/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_26867",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "71.239.116.178/32",
+      "destination": "10.231.209.132/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_1973",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "82.218.233.38/32",
+      "destination": "10.9.118.115/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_49343",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "11.179.106.61/32",
+      "destination": "10.140.176.59/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_46920",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "156.128.107.72/32",
+      "destination": "10.91.109.239/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_48057",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "39.59.136.225/32",
+      "destination": "10.44.218.105/32",
+      "destination_port": 39004,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_23647",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "195.186.83.76/32",
+      "destination": "10.142.76.65/32",
+      "destination_port": 25174,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_3584",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "102.145.31.212/32",
+      "destination": "10.77.166.228/32",
+      "destination_port": 8000,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_5750",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "195.8.5.145/32",
+      "destination": "10.215.234.172/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_62455",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "200.167.17.210/32",
+      "destination": "10.172.60.51/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_57438",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "121.55.148.85/32",
+      "destination": "10.122.94.167/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_17981",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "211.20.10.169/32",
+      "destination": "10.210.0.140/32",
+      "destination_port": 22114,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_11042",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "92.62.163.84/32",
+      "destination": "10.238.205.122/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_61402",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "88.36.160.231/32",
+      "destination": "10.8.9.22/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_11794",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "107.231.16.229/32",
+      "destination": "10.14.68.181/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_1463",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "203.168.105.155/32",
+      "destination": "10.137.160.68/32",
+      "destination_port": 8411,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_20933",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "15.166.202.56/32",
+      "destination": "10.175.156.187/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_4887",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "174.49.143.113/32",
+      "destination": "10.155.65.251/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_57827",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "141.161.181.165/32",
+      "destination": "10.113.110.148/32",
+      "destination_port": 995,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_23073",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "46.248.124.218/32",
+      "destination": "10.241.149.141/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_54843",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "202.75.126.182/32",
+      "destination": "10.24.92.246/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_19353",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "19.198.95.104/32",
+      "destination": "10.114.100.92/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_1646",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "204.9.52.229/32",
+      "destination": "10.219.82.48/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_6147",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "85.83.70.32/32",
+      "destination": "10.238.52.206/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_59638",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "82.59.135.109/32",
+      "destination": "10.113.163.204/32",
+      "destination_port": 30002,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_52039",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "73.19.114.29/32",
+      "destination": "10.142.81.76/32",
+      "destination_port": 36237,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_37457",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "175.153.197.93/32",
+      "destination": "10.144.20.111/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_39087",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "208.225.56.139/32",
+      "destination": "10.242.85.86/32",
+      "destination_port": 22114,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_24739",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "191.223.82.211/32",
+      "destination": "10.69.34.88/32",
+      "destination_port": 61463,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_24366",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "197.83.63.149/32",
+      "destination": "10.205.45.240/32",
+      "destination_port": 57470,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_20282",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "68.188.153.137/32",
+      "destination": "10.209.92.236/32",
+      "destination_port": 15503,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_45967",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "137.233.84.211/32",
+      "destination": "10.190.52.77/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_37945",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "190.107.246.155/32",
+      "destination": "10.0.188.141/32",
+      "destination_port": 123,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_17987",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "126.249.107.112/32",
+      "destination": "10.8.5.80/32",
+      "destination_port": 37965,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_6603",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "185.43.159.169/32",
+      "destination": "10.143.22.80/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_62866",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "21.2.114.162/32",
+      "destination": "10.236.253.163/32",
+      "destination_port": 35440,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_55413",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "177.22.231.218/32",
+      "destination": "10.3.197.203/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_4351",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "113.23.71.199/32",
+      "destination": "10.31.63.114/32",
+      "destination_port": 6882,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_11567",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "207.157.75.241/32",
+      "destination": "10.82.167.192/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_29084",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "211.243.228.8/32",
+      "destination": "10.132.1.204/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_7509",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "27.152.118.223/32",
+      "destination": "10.98.61.195/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_14612",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "141.189.171.95/32",
+      "destination": "10.224.159.96/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_46544",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "150.211.61.157/32",
+      "destination": "10.196.72.62/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_47448",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "79.158.157.14/32",
+      "destination": "10.134.175.215/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_11287",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "71.126.200.96/32",
+      "destination": "10.214.217.202/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_14265",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "112.122.225.228/32",
+      "destination": "10.221.152.89/32",
+      "destination_port": 33515,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_32503",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "214.198.67.32/32",
+      "destination": "10.66.134.66/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_9421",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "199.190.239.60/32",
+      "destination": "10.236.203.236/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_53193",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "133.79.202.222/32",
+      "destination": "10.151.62.117/32",
+      "destination_port": 37965,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_49413",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "24.250.204.111/32",
+      "destination": "10.85.127.71/32",
+      "destination_port": 57470,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_10040",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "121.199.3.232/32",
+      "destination": "10.12.183.170/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_21877",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "194.130.116.47/32",
+      "destination": "10.30.249.60/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_2746",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "141.150.255.221/32",
+      "destination": "10.204.39.9/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_3994",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "149.196.245.19/32",
+      "destination": "10.181.78.245/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_46946",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "50.248.167.152/32",
+      "destination": "10.58.249.10/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_54427",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "69.171.184.152/32",
+      "destination": "10.33.239.131/32",
+      "destination_port": 37338,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_30132",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "109.28.135.46/32",
+      "destination": "10.170.203.11/32",
+      "destination_port": 5223,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_13973",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "70.214.139.195/32",
+      "destination": "10.149.69.226/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_56814",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "120.46.181.77/32",
+      "destination": "10.131.236.20/32",
+      "destination_port": 51505,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_29904",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "57.217.126.37/32",
+      "destination": "10.246.251.1/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_16432",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "141.92.177.228/32",
+      "destination": "10.82.143.54/32",
+      "destination_port": 37965,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_47058",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "158.113.235.220/32",
+      "destination": "10.16.208.83/32",
+      "destination_port": 23718,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_21856",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "193.101.22.249/32",
+      "destination": "10.255.177.147/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_31501",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "55.1.96.81/32",
+      "destination": "10.53.250.173/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_29653",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "202.111.17.56/32",
+      "destination": "10.116.100.183/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_26642",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "124.158.223.194/32",
+      "destination": "10.65.118.11/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_28257",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "28.30.190.199/32",
+      "destination": "10.95.92.251/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_45846",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "203.206.20.188/32",
+      "destination": "10.41.33.181/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_40630",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "98.63.38.76/32",
+      "destination": "10.198.88.73/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_54629",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "146.229.155.136/32",
+      "destination": "10.186.216.73/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_42549",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "100.232.135.232/32",
+      "destination": "10.240.114.158/32",
+      "destination_port": 37965,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_43914",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "131.184.84.197/32",
+      "destination": "10.58.28.52/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_52754",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "153.98.142.55/32",
+      "destination": "10.140.83.55/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_2854",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "71.140.149.144/32",
+      "destination": "10.122.198.70/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_18544",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "195.148.183.214/32",
+      "destination": "10.65.85.249/32",
+      "destination_port": 44847,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_24505",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "83.117.143.73/32",
+      "destination": "10.212.216.239/32",
+      "destination_port": 19010,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_8690",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "200.154.60.155/32",
+      "destination": "10.239.171.22/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_42227",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "202.121.253.150/32",
+      "destination": "10.115.47.116/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_60164",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "32.233.160.231/32",
+      "destination": "10.254.218.120/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_26549",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "167.122.71.247/32",
+      "destination": "10.237.78.31/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_43997",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "143.85.205.185/32",
+      "destination": "10.195.128.248/32",
+      "destination_port": 59033,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_10906",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "129.134.208.180/32",
+      "destination": "10.141.253.195/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_17324",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "150.36.116.251/32",
+      "destination": "10.245.102.150/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_61795",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "52.143.52.122/32",
+      "destination": "10.144.2.11/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_18901",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "216.223.177.1/32",
+      "destination": "10.212.183.86/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_41979",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "157.120.221.225/32",
+      "destination": "10.66.44.112/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_48873",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "217.81.88.207/32",
+      "destination": "10.216.243.75/32",
+      "destination_port": 6881,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_7437",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "79.110.202.78/32",
+      "destination": "10.195.46.141/32",
+      "destination_port": 5900,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_26519",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "96.217.226.54/32",
+      "destination": "10.189.144.229/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_50056",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "158.165.203.146/32",
+      "destination": "10.139.222.143/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_29362",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "169.124.152.252/32",
+      "destination": "10.227.234.95/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_39047",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "20.147.93.191/32",
+      "destination": "10.12.100.179/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_24910",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "79.227.166.125/32",
+      "destination": "10.5.34.241/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_57402",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "99.63.255.229/32",
+      "destination": "10.8.102.8/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_20699",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "62.114.21.28/32",
+      "destination": "10.156.125.112/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_12669",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "182.252.224.106/32",
+      "destination": "10.62.115.31/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_12530",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "176.96.180.87/32",
+      "destination": "10.148.79.128/32",
+      "destination_port": 22114,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_41737",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "179.111.116.101/32",
+      "destination": "10.11.202.151/32",
+      "destination_port": 51050,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_24907",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "211.69.49.223/32",
+      "destination": "10.242.97.216/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_3040",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "143.197.237.134/32",
+      "destination": "10.27.101.37/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_9993",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "216.74.104.202/32",
+      "destination": "10.176.213.244/32",
+      "destination_port": 20541,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_55056",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "95.251.4.218/32",
+      "destination": "10.172.34.83/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_34588",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "69.255.124.111/32",
+      "destination": "10.123.78.69/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_54250",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "209.27.153.204/32",
+      "destination": "10.42.238.39/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_24542",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "151.7.105.202/32",
+      "destination": "10.96.55.191/32",
+      "destination_port": 12523,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_577",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "114.219.110.138/32",
+      "destination": "10.102.109.135/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_34381",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "112.8.7.188/32",
+      "destination": "10.84.18.7/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_5256",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "27.160.112.130/32",
+      "destination": "10.21.246.220/32",
+      "destination_port": 44847,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_31245",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "170.51.40.180/32",
+      "destination": "10.214.223.195/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_12307",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "90.86.44.67/32",
+      "destination": "10.15.198.241/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_42981",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "126.253.57.162/32",
+      "destination": "10.158.187.157/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_32475",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "30.231.94.201/32",
+      "destination": "10.49.9.58/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_35885",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "69.228.107.248/32",
+      "destination": "10.1.196.70/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_38822",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "67.203.59.123/32",
+      "destination": "10.223.119.66/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_14213",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "162.166.112.194/32",
+      "destination": "10.216.209.119/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_14780",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "101.114.212.209/32",
+      "destination": "10.9.211.7/32",
+      "destination_port": 22114,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_36766",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "41.229.118.220/32",
+      "destination": "10.163.216.99/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_22877",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "213.1.58.181/32",
+      "destination": "10.114.190.217/32",
+      "destination_port": 56205,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_49121",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "67.216.48.234/32",
+      "destination": "10.255.212.66/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_21832",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "176.135.29.169/32",
+      "destination": "10.10.111.33/32",
+      "destination_port": 45754,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_23419",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "150.114.154.32/32",
+      "destination": "10.169.85.217/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_59822",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "85.243.193.125/32",
+      "destination": "10.239.251.34/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_28564",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "59.50.166.29/32",
+      "destination": "10.214.131.95/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_52947",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "91.12.176.30/32",
+      "destination": "10.161.167.157/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_54239",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "158.160.179.131/32",
+      "destination": "10.46.199.219/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_5118",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "48.16.183.167/32",
+      "destination": "10.199.212.87/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_40897",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "63.96.23.189/32",
+      "destination": "10.185.208.133/32",
+      "destination_port": 25243,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_15471",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "31.126.100.185/32",
+      "destination": "10.148.231.171/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_52292",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "136.237.193.20/32",
+      "destination": "10.76.7.122/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_46399",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "161.30.167.33/32",
+      "destination": "10.205.180.52/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_5445",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "154.15.188.132/32",
+      "destination": "10.116.46.122/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_15697",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "11.184.67.205/32",
+      "destination": "10.98.44.248/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_9610",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "163.11.27.71/32",
+      "destination": "10.101.85.48/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_1070",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "44.67.184.241/32",
+      "destination": "10.210.204.197/32",
+      "destination_port": 37965,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_38496",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "116.85.147.95/32",
+      "destination": "10.85.6.48/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_19220",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "141.42.252.205/32",
+      "destination": "10.49.113.15/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_58125",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "22.234.47.176/32",
+      "destination": "10.175.214.210/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_16998",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "27.14.119.254/32",
+      "destination": "10.180.145.114/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_8654",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "102.75.32.83/32",
+      "destination": "10.67.188.229/32",
+      "destination_port": 80,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_28224",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "102.1.115.141/32",
+      "destination": "10.73.21.81/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_10982",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "180.68.217.102/32",
+      "destination": "10.50.214.250/32",
+      "destination_port": 25604,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_52325",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "210.121.186.195/32",
+      "destination": "10.78.66.76/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_16348",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "125.171.138.138/32",
+      "destination": "10.194.145.119/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_40171",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "95.64.159.126/32",
+      "destination": "10.186.28.50/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_50940",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "153.167.174.52/32",
+      "destination": "10.237.150.146/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_12987",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "13.127.185.237/32",
+      "destination": "10.105.84.70/32",
+      "destination_port": 30188,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_49276",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "166.151.171.138/32",
+      "destination": "10.218.98.127/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_62056",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "118.184.243.116/32",
+      "destination": "10.244.119.49/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_65082",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "184.242.235.58/32",
+      "destination": "10.55.80.148/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_35568",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "217.96.179.103/32",
+      "destination": "10.126.86.171/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_41015",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "35.47.46.164/32",
+      "destination": "10.160.156.96/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_33181",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "101.89.14.198/32",
+      "destination": "10.74.19.144/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_60611",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "150.72.217.117/32",
+      "destination": "10.4.91.76/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_1075",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "38.172.183.93/32",
+      "destination": "10.1.146.249/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_55993",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "72.11.59.236/32",
+      "destination": "10.19.127.6/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_21110",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "74.5.252.244/32",
+      "destination": "10.67.223.44/32",
+      "destination_port": 3389,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_36463",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "30.82.22.219/32",
+      "destination": "10.215.247.52/32",
+      "destination_port": 6881,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_54654",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "91.141.90.75/32",
+      "destination": "10.19.27.181/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_54765",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "81.203.52.221/32",
+      "destination": "10.181.239.28/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_57284",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "213.152.103.43/32",
+      "destination": "10.59.124.111/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_33621",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "98.108.115.121/32",
+      "destination": "10.121.167.231/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_33922",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "153.208.6.156/32",
+      "destination": "10.91.157.216/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_62574",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "213.23.178.84/32",
+      "destination": "10.28.45.166/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_61746",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "111.249.124.81/32",
+      "destination": "10.215.245.98/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_61126",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "36.253.39.101/32",
+      "destination": "10.126.201.163/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_19586",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "154.89.122.35/32",
+      "destination": "10.134.247.48/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_33691",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "157.224.79.237/32",
+      "destination": "10.243.233.173/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_31246",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "47.46.81.178/32",
+      "destination": "10.204.4.185/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_45646",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "46.15.219.125/32",
+      "destination": "10.48.114.55/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_740",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "103.85.13.138/32",
+      "destination": "10.9.213.41/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_61274",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "16.92.201.190/32",
+      "destination": "10.109.41.129/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_20501",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "44.228.107.159/32",
+      "destination": "10.100.255.147/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_43596",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "157.23.142.163/32",
+      "destination": "10.219.109.87/32",
+      "destination_port": 20087,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_32666",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "152.42.99.176/32",
+      "destination": "10.84.163.237/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_5891",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "30.248.30.218/32",
+      "destination": "10.13.214.238/32",
+      "destination_port": 51610,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_1742",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "170.41.102.83/32",
+      "destination": "10.68.81.33/32",
+      "destination_port": 57470,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_24002",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "43.157.121.19/32",
+      "destination": "10.116.213.148/32",
+      "destination_port": 15503,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_52090",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "110.10.34.182/32",
+      "destination": "10.103.57.216/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_25128",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "133.37.102.182/32",
+      "destination": "10.79.158.121/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_10752",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "31.73.92.65/32",
+      "destination": "10.205.122.43/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_9316",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "43.159.174.69/32",
+      "destination": "10.27.124.107/32",
+      "destination_port": 22,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_46473",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "129.98.77.178/32",
+      "destination": "10.21.160.120/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_18799",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "195.60.103.177/32",
+      "destination": "10.39.116.21/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_53780",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "223.104.150.56/32",
+      "destination": "10.81.20.145/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_25312",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "174.184.41.96/32",
+      "destination": "10.75.190.118/32",
+      "destination_port": 55783,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_36478",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "49.212.246.219/32",
+      "destination": "10.82.195.251/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_4577",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "12.199.231.10/32",
+      "destination": "10.65.230.60/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_34671",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "22.58.179.202/32",
+      "destination": "10.212.12.58/32",
+      "destination_port": 7000,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_65170",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "35.121.150.130/32",
+      "destination": "10.1.64.173/32",
+      "destination_port": 40014,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_20865",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "38.218.110.122/32",
+      "destination": "10.38.239.71/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_33275",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "89.9.4.111/32",
+      "destination": "10.104.206.145/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_23062",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "16.244.71.29/32",
+      "destination": "10.230.132.74/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_37540",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "205.240.230.27/32",
+      "destination": "10.218.196.184/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_43396",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "119.16.180.145/32",
+      "destination": "10.89.193.117/32",
+      "destination_port": 22114,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_16896",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "131.192.243.85/32",
+      "destination": "10.103.21.222/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_36584",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "18.206.201.182/32",
+      "destination": "10.240.64.50/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_13820",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "33.153.104.33/32",
+      "destination": "10.30.144.247/32",
+      "destination_port": 3389,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_31282",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "209.244.185.65/32",
+      "destination": "10.159.101.209/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_32888",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "91.235.93.226/32",
+      "destination": "10.187.141.251/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_61822",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "156.219.123.56/32",
+      "destination": "10.244.255.104/32",
+      "destination_port": 59689,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_36020",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "102.149.52.80/32",
+      "destination": "10.72.5.235/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_26395",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "104.50.192.118/32",
+      "destination": "10.188.54.235/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_18989",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "67.222.70.80/32",
+      "destination": "10.140.180.75/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_57854",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "108.81.123.34/32",
+      "destination": "10.54.2.172/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_5012",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "199.41.61.36/32",
+      "destination": "10.68.3.139/32",
+      "destination_port": 30922,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_53987",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "24.59.58.219/32",
+      "destination": "10.110.16.226/32",
+      "destination_port": 9571,
+      "protocol": "TCP"
+    },
+    "action": "DENY"
+  },
+  {
+    "rule_id": "fw_ingest_11363",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "48.255.20.153/32",
+      "destination": "10.153.213.58/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_41379",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "157.32.208.142/32",
+      "destination": "10.148.123.190/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_38116",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "183.84.23.229/32",
+      "destination": "10.87.215.225/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_54079",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "113.12.79.232/32",
+      "destination": "10.223.105.54/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_15160",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "170.84.161.7/32",
+      "destination": "10.193.95.150/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_46275",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "60.41.45.21/32",
+      "destination": "10.54.135.92/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_10539",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "58.238.150.186/32",
+      "destination": "10.194.99.206/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_5135",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "74.6.147.214/32",
+      "destination": "10.176.92.212/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_33292",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "217.179.36.3/32",
+      "destination": "10.87.227.215/32",
+      "destination_port": 53,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  },
+  {
+    "rule_id": "fw_ingest_34529",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "218.167.172.162/32",
+      "destination": "10.224.31.159/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_13954",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "184.3.162.123/32",
+      "destination": "10.39.38.239/32",
+      "destination_port": 445,
+      "protocol": "TCP"
+    },
+    "action": "DROP"
+  },
+  {
+    "rule_id": "fw_ingest_24223",
+    "description": "Historical flow record for optimization",
+    "match": {
+      "source": "43.161.110.251/32",
+      "destination": "10.192.69.18/32",
+      "destination_port": 443,
+      "protocol": "TCP"
+    },
+    "action": "ALLOW"
+  }
+]

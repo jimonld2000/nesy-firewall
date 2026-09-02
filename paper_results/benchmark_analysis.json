@@ -1,0 +1,132 @@
+{
+  "total_rules": 100,
+  "safe_rules": 56,
+  "unsafe_rules": 44,
+  "errors": 0,
+  "latency": {
+    "mean_us": 1412.58,
+    "median_us": 1417.9,
+    "std_us": 639.08,
+    "min_us": 0.0,
+    "max_us": 5036.79,
+    "p50_us": 1417.9,
+    "p90_us": 1817.37,
+    "p95_us": 2276.64,
+    "p99_us": 3430.35,
+    "p999_us": 4876.15
+  },
+  "memory": {
+    "mean_mb": 0.001606,
+    "median_mb": 0.001602,
+    "max_mb": 0.013002,
+    "p95_mb": 0.001648,
+    "p99_mb": 0.001811
+  },
+  "throughput_rules_per_sec": 707.9,
+  "by_category": {
+    "unsafe_database": {
+      "count": 10,
+      "safe": 0,
+      "unsafe": 10,
+      "median_latency_us": 1612.0,
+      "p95_latency_us": 4306.59,
+      "max_memory_mb": 0.013002,
+      "accuracy": 1.0
+    },
+    "safe_narrow": {
+      "count": 15,
+      "safe": 14,
+      "unsafe": 1,
+      "median_latency_us": 1204.33,
+      "p95_latency_us": 1568.0,
+      "max_memory_mb": 0.001648,
+      "accuracy": 0.9333
+    },
+    "slm_hallucination": {
+      "count": 15,
+      "safe": 11,
+      "unsafe": 4,
+      "median_latency_us": 1457.79,
+      "p95_latency_us": 2353.27,
+      "max_memory_mb": 0.001698,
+      "accuracy": 0.2667
+    },
+    "unsafe_over_aggregation": {
+      "count": 10,
+      "safe": 2,
+      "unsafe": 8,
+      "median_latency_us": 1308.93,
+      "p95_latency_us": 1557.06,
+      "max_memory_mb": 0.001602,
+      "accuracy": 0.8
+    },
+    "safe_aggregated": {
+      "count": 10,
+      "safe": 10,
+      "unsafe": 0,
+      "median_latency_us": 1357.96,
+      "p95_latency_us": 1576.37,
+      "max_memory_mb": 0.00164,
+      "accuracy": 1.0
+    },
+    "edge_cases": {
+      "count": 8,
+      "safe": 7,
+      "unsafe": 1,
+      "median_latency_us": 1579.72,
+      "p95_latency_us": 1995.65,
+      "max_memory_mb": 0.00164,
+      "accuracy": 0.125
+    },
+    "unsafe_management": {
+      "count": 8,
+      "safe": 0,
+      "unsafe": 8,
+      "median_latency_us": 1521.16,
+      "p95_latency_us": 2114.79,
+      "max_memory_mb": 0.00164,
+      "accuracy": 1.0
+    },
+    "unsafe_wrong_port": {
+      "count": 8,
+      "safe": 0,
+      "unsafe": 8,
+      "median_latency_us": 1544.93,
+      "p95_latency_us": 1985.39,
+      "max_memory_mb": 0.00164,
+      "accuracy": 1.0
+    },
+    "unsafe_threat_intel": {
+      "count": 8,
+      "safe": 4,
+      "unsafe": 4,
+      "median_latency_us": 1505.25,
+      "p95_latency_us": 1775.47,
+      "max_memory_mb": 0.001648,
+      "accuracy": 0.5
+    },
+    "deny_rules": {
+      "count": 8,
+      "safe": 8,
+      "unsafe": 0,
+      "median_latency_us": 0.0,
+      "p95_latency_us": 0.0,
+      "max_memory_mb": 0.0,
+      "accuracy": 1.0
+    }
+  },
+  "confusion_matrix": {
+    "true_positives": 43,
+    "true_negatives": 32,
+    "false_positives": 1,
+    "false_negatives": 24,
+    "tpr": 0.6418,
+    "tnr": 0.9697,
+    "fpr": 0.0303,
+    "fnr": 0.3582,
+    "precision": 0.9773,
+    "recall": 0.6418,
+    "f1": 0.7748,
+    "accuracy": 0.75
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "inv_1": {
+    "n_invariants": 1,
+    "n_rules": 20,
+    "safe": 19,
+    "unsafe": 1,
+    "mean_latency_us": 3777.24,
+    "median_latency_us": 1006.44,
+    "p95_latency_us": 3951.83,
+    "max_latency_us": 56986.48
+  },
+  "inv_2": {
+    "n_invariants": 2,
+    "n_rules": 20,
+    "safe": 18,
+    "unsafe": 2,
+    "mean_latency_us": 1365.88,
+    "median_latency_us": 1201.9,
+    "p95_latency_us": 2242.2,
+    "max_latency_us": 3084.69
+  },
+  "inv_3": {
+    "n_invariants": 3,
+    "n_rules": 20,
+    "safe": 17,
+    "unsafe": 3,
+    "mean_latency_us": 1799.66,
+    "median_latency_us": 1818.69,
+    "p95_latency_us": 2581.49,
+    "max_latency_us": 3073.01
+  },
+  "inv_4": {
+    "n_invariants": 4,
+    "n_rules": 20,
+    "safe": 12,
+    "unsafe": 8,
+    "mean_latency_us": 2080.31,
+    "median_latency_us": 1972.22,
+    "p95_latency_us": 3558.95,
+    "max_latency_us": 4283.48
+  }
+}

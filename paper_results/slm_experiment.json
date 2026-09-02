@@ -1,0 +1,32 @@
+{
+  "size_25": {
+    "input_size": 25,
+    "rules_generated": 25,
+    "generation_time_s": 33.47,
+    "verification_time_s": 0.08,
+    "safe_rules": 18,
+    "unsafe_rules": 7,
+    "hallucination_rate": 28.0,
+    "avg_verify_time_ms": 3.15
+  },
+  "size_50": {
+    "input_size": 50,
+    "rules_generated": 8,
+    "generation_time_s": 17.24,
+    "verification_time_s": 0.01,
+    "safe_rules": 1,
+    "unsafe_rules": 7,
+    "hallucination_rate": 87.5,
+    "avg_verify_time_ms": 1.19
+  },
+  "size_100": {
+    "input_size": 100,
+    "rules_generated": 2,
+    "generation_time_s": 5.79,
+    "verification_time_s": 0.0,
+    "safe_rules": 2,
+    "unsafe_rules": 0,
+    "hallucination_rate": 0.0,
+    "avg_verify_time_ms": 0.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "example-ztna-policy",
+  "violations": [
+    {"id": "database_isolation", "source_not_in": "10.0.0.0/8", "destination_in": "10.0.3.0/24", "destination_port": 3306},
+    {"id": "threat_intelligence", "source_in": "198.51.100.0/24"},
+    {"id": "management_ssh", "source_not_in": "10.0.0.0/8", "destination_in": "10.0.4.0/24", "destination_port": 22},
+    {"id": "external_port_restriction", "source_not_in": "10.0.0.0/8", "destination_in": "10.0.0.0/8", "destination_port_not_in": [80, 443, 8080]}
+  ]
+}
