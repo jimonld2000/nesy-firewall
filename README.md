@@ -185,9 +185,9 @@ This is the experimental code used for the ICASC 2026 paper, not a production fi
 
 ---
 
-**Version:** 1.0.0
+**Version:** 2.0.0
 
-**Last Updated:** 2026-09-02
+**Last Updated:** 2026-09-03
 
 **Maintainer:** Daniel Jimon
 
